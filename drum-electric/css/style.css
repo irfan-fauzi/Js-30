@@ -1,6 +1,53 @@
 html {
-    padding: 0;
-    margin: 0;
-    background: url(https://images.pexels.com/photos/237464/pexels-photo-237464.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
-    background-size: cover;
+  padding: 0;
+  margin: 0;
+  background: url(https://images.pexels.com/photos/237464/pexels-photo-237464.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-size: cover;
+  font-family: sans-serif;
 }
+
+.keys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 300px auto;
+}
+
+.keys div {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  border: gold 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.keys div kbd {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.keys div span {
+  text-align: center;
+  font-size: 10px;
+  color: goldenrod;
+}
+
+.pukul {
+  background-color: goldenrod;
+}
+/*# sourceMappingURL=style.css.map */
