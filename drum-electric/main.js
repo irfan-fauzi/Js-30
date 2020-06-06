@@ -4,6 +4,9 @@ window.addEventListener('keydown', function (e) {
     if (!audio) return // stop the function
     audio.play();
     const key = document.querySelector(`.key[data-key="${e.keyCode}"`);
-    key.classList.toggle('pukul');
+    key.classList.add('pukul')
+    setTimeout(function () {
+        key.classList.remove('pukul');
+    }, 200);
 
 });
